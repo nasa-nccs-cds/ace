@@ -16,7 +16,7 @@ from .core.metrics import (
     weighted_std,
 )
 
-APPLY_SHT_FIX = True
+APPLY_SHT_FIX = False
 
 if APPLY_SHT_FIX:
     from .sht_fix import InverseRealSHT, RealSHT
